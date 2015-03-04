@@ -1,0 +1,75 @@
+html,body{
+	height: 100%;
+}
+
+hr {
+	border-top-color: #ddd;
+	border-bottom:1px solid #fff;
+}
+
+/*sidebar*/
+.rp-sidebar {
+	min-height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 220px;
+	color: #A7A9AB;
+	padding: 12px;
+}
+
+.navbar-static-side hr {
+	border-top-color: #293845;
+	border-bottom: 1px solid #35495C;
+}
+
+.rp-login {
+	padding: 8px;
+}
+
+.rp-login-inner {
+	margin: 10px auto 8px;
+	width: 100%;
+	border: 1px solid #657584;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+.rp-how {
+	padding: 8px;
+}
+
+.rp-how-inner {
+	background-color: #25384A;
+	padding: 8px;
+	border: 1px solid #36495A;	
+	font-size: 12px;
+	box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	max-height: 200px;
+	overflow: auto;
+}
+
+body.minimize-sidemenu .page-wrapper {
+	margin: 0 0 0 70px;
+}
+
+.page-wrapper {
+	 -webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			  -0-transition: all 0.5s ease-in-out;
+					 transition: all 0.5s ease-in-out;
+
+	padding: 15px 22px;
+	position: relative;
+	background: #eee;
+	min-height: 100%;
+}
+
+/*responsive*/
+@media (min-width: 768px) {
+	.page-wrapper {
+		position: inherit;
+		margin: 0 0 0 220px;
+	}
+}
